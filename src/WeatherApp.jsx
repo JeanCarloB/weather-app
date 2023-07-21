@@ -38,7 +38,6 @@ export const WeatherApp = () => {
     return (
         <div className='container d-flex flex-column align-items-center'>
             <div className='container bg-primary text-light p-4 mb-3'>
-                <img src='/src/assets/cloudy.png' />
                 <h1 className='fs-12 mb-20'>Weather App</h1>
             </div>
             <form onSubmit={handleSubmit}>
